@@ -18,6 +18,21 @@
 		CBA2C66F1F19A2EE002C2345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C66D1F19A2EE002C2345 /* LaunchScreen.storyboard */; };
 		CBA2C67A1F19A2EE002C2345 /* BrelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6791F19A2EE002C2345 /* BrelloTests.swift */; };
 		CBA2C6851F19A2EE002C2345 /* BrelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6841F19A2EE002C2345 /* BrelloUITests.swift */; };
+		CBA2C6A31F1A7589002C2345 /* AppleHomePage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C6931F1A7589002C2345 /* AppleHomePage.storyboard */; };
+		CBA2C6A41F1A7589002C2345 /* AppleProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6941F1A7589002C2345 /* AppleProductViewController.swift */; };
+		CBA2C6A51F1A7589002C2345 /* Basic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C6951F1A7589002C2345 /* Basic.storyboard */; };
+		CBA2C6A61F1A7589002C2345 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6971F1A7589002C2345 /* City.swift */; };
+		CBA2C6A71F1A7589002C2345 /* CityGuide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C6981F1A7589002C2345 /* CityGuide.storyboard */; };
+		CBA2C6A81F1A7589002C2345 /* CityGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6991F1A7589002C2345 /* CityGuideCell.swift */; };
+		CBA2C6A91F1A7589002C2345 /* CityGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C69A1F1A7589002C2345 /* CityGuideViewController.swift */; };
+		CBA2C6AA1F1A7589002C2345 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C69B1F1A7589002C2345 /* CityViewController.swift */; };
+		CBA2C6AB1F1A7589002C2345 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C69D1F1A7589002C2345 /* Menu.storyboard */; };
+		CBA2C6AC1F1A7589002C2345 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C69E1F1A7589002C2345 /* MenuViewController.swift */; };
+		CBA2C6AD1F1A7589002C2345 /* MusicPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C69F1F1A7589002C2345 /* MusicPlayer.storyboard */; };
+		CBA2C6AE1F1A7589002C2345 /* VideoPlayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C6A11F1A7589002C2345 /* VideoPlayer.storyboard */; };
+		CBA2C6AF1F1A7589002C2345 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6A21F1A7589002C2345 /* VideoPlayerViewController.swift */; };
+		CBA2C7751F1AA3BE002C2345 /* uiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7741F1AA3BE002C2345 /* uiViewExtension.swift */; };
+		CBA2C7781F1AA9DA002C2345 /* QRDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +75,21 @@
 		CBA2C6801F19A2EE002C2345 /* BrelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA2C6841F19A2EE002C2345 /* BrelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrelloUITests.swift; sourceTree = "<group>"; };
 		CBA2C6861F19A2EE002C2345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBA2C6931F1A7589002C2345 /* AppleHomePage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AppleHomePage.storyboard; sourceTree = "<group>"; };
+		CBA2C6941F1A7589002C2345 /* AppleProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleProductViewController.swift; sourceTree = "<group>"; };
+		CBA2C6951F1A7589002C2345 /* Basic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
+		CBA2C6971F1A7589002C2345 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CBA2C6981F1A7589002C2345 /* CityGuide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CityGuide.storyboard; sourceTree = "<group>"; };
+		CBA2C6991F1A7589002C2345 /* CityGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityGuideCell.swift; sourceTree = "<group>"; };
+		CBA2C69A1F1A7589002C2345 /* CityGuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityGuideViewController.swift; sourceTree = "<group>"; };
+		CBA2C69B1F1A7589002C2345 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		CBA2C69D1F1A7589002C2345 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		CBA2C69E1F1A7589002C2345 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CBA2C69F1F1A7589002C2345 /* MusicPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MusicPlayer.storyboard; sourceTree = "<group>"; };
+		CBA2C6A11F1A7589002C2345 /* VideoPlayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VideoPlayer.storyboard; sourceTree = "<group>"; };
+		CBA2C6A21F1A7589002C2345 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		CBA2C7741F1AA3BE002C2345 /* uiViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiViewExtension.swift; sourceTree = "<group>"; };
+		CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDetailViewController.swift; sourceTree = "<group>"; };
 		D4C9367B25F5C398612A51DA /* Pods-BrelloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrelloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrelloTests/Pods-BrelloTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,13 +169,22 @@
 		CBA2C6601F19A2EE002C2345 /* Brello */ = {
 			isa = PBXGroup;
 			children = (
+				CBA2C7791F1AD439002C2345 /* Main */,
+				CBA2C7761F1AA9BA002C2345 /* QR */,
 				CBA2C6611F19A2EE002C2345 /* AppDelegate.swift */,
 				CBA2C6631F19A2EE002C2345 /* ViewController.swift */,
+				CBA2C6921F1A7589002C2345 /* AppleHomePage */,
+				CBA2C6951F1A7589002C2345 /* Basic.storyboard */,
+				CBA2C6961F1A7589002C2345 /* CityGuide */,
+				CBA2C69C1F1A7589002C2345 /* Menu */,
+				CBA2C69F1F1A7589002C2345 /* MusicPlayer.storyboard */,
+				CBA2C6A01F1A7589002C2345 /* VideoPlayer */,
 				CBA2C6651F19A2EE002C2345 /* Main.storyboard */,
 				CBA2C66B1F19A2EE002C2345 /* Assets.xcassets */,
 				CBA2C66D1F19A2EE002C2345 /* LaunchScreen.storyboard */,
 				CBA2C6701F19A2EE002C2345 /* Info.plist */,
 				CBA2C6681F19A2EE002C2345 /* Brello.xcdatamodeld */,
+				CBA2C7741F1AA3BE002C2345 /* uiViewExtension.swift */,
 			);
 			path = Brello;
 			sourceTree = "<group>";
@@ -166,6 +205,60 @@
 				CBA2C6861F19A2EE002C2345 /* Info.plist */,
 			);
 			path = BrelloUITests;
+			sourceTree = "<group>";
+		};
+		CBA2C6921F1A7589002C2345 /* AppleHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C6931F1A7589002C2345 /* AppleHomePage.storyboard */,
+				CBA2C6941F1A7589002C2345 /* AppleProductViewController.swift */,
+			);
+			path = AppleHomePage;
+			sourceTree = "<group>";
+		};
+		CBA2C6961F1A7589002C2345 /* CityGuide */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C6971F1A7589002C2345 /* City.swift */,
+				CBA2C6981F1A7589002C2345 /* CityGuide.storyboard */,
+				CBA2C6991F1A7589002C2345 /* CityGuideCell.swift */,
+				CBA2C69A1F1A7589002C2345 /* CityGuideViewController.swift */,
+				CBA2C69B1F1A7589002C2345 /* CityViewController.swift */,
+			);
+			path = CityGuide;
+			sourceTree = "<group>";
+		};
+		CBA2C69C1F1A7589002C2345 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C69D1F1A7589002C2345 /* Menu.storyboard */,
+				CBA2C69E1F1A7589002C2345 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CBA2C6A01F1A7589002C2345 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C6A11F1A7589002C2345 /* VideoPlayer.storyboard */,
+				CBA2C6A21F1A7589002C2345 /* VideoPlayerViewController.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		CBA2C7761F1AA9BA002C2345 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */,
+			);
+			name = QR;
+			sourceTree = "<group>";
+		};
+		CBA2C7791F1AD439002C2345 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,9 +380,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA2C6AB1F1A7589002C2345 /* Menu.storyboard in Resources */,
+				CBA2C6AE1F1A7589002C2345 /* VideoPlayer.storyboard in Resources */,
+				CBA2C6A71F1A7589002C2345 /* CityGuide.storyboard in Resources */,
 				CBA2C66F1F19A2EE002C2345 /* LaunchScreen.storyboard in Resources */,
+				CBA2C6AD1F1A7589002C2345 /* MusicPlayer.storyboard in Resources */,
 				CBA2C66C1F19A2EE002C2345 /* Assets.xcassets in Resources */,
 				CBA2C6671F19A2EE002C2345 /* Main.storyboard in Resources */,
+				CBA2C6A31F1A7589002C2345 /* AppleHomePage.storyboard in Resources */,
+				CBA2C6A51F1A7589002C2345 /* Basic.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,9 +551,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBA2C7781F1AA9DA002C2345 /* QRDetailViewController.swift in Sources */,
 				CBA2C6641F19A2EE002C2345 /* ViewController.swift in Sources */,
+				CBA2C6A81F1A7589002C2345 /* CityGuideCell.swift in Sources */,
+				CBA2C6A61F1A7589002C2345 /* City.swift in Sources */,
+				CBA2C6AA1F1A7589002C2345 /* CityViewController.swift in Sources */,
+				CBA2C6AC1F1A7589002C2345 /* MenuViewController.swift in Sources */,
+				CBA2C6A91F1A7589002C2345 /* CityGuideViewController.swift in Sources */,
 				CBA2C6621F19A2EE002C2345 /* AppDelegate.swift in Sources */,
+				CBA2C6AF1F1A7589002C2345 /* VideoPlayerViewController.swift in Sources */,
+				CBA2C6A41F1A7589002C2345 /* AppleProductViewController.swift in Sources */,
 				CBA2C66A1F19A2EE002C2345 /* Brello.xcdatamodeld in Sources */,
+				CBA2C7751F1AA3BE002C2345 /* uiViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

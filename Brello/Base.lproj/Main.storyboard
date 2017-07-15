@@ -32,15 +32,42 @@
                                     <action selector="scanCode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zdd-AJ-2FC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogt-fB-aS7">
+                                <rect key="frame" x="170" y="356" width="34" height="30"/>
+                                <state key="normal" title="View"/>
+                                <connections>
+                                    <action selector="viewPages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3r-RW-LNd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kJi-2S-g1H">
+                                <rect key="frame" x="172" y="394" width="31" height="30"/>
+                                <state key="normal" title="Bars"/>
+                                <connections>
+                                    <action selector="viewBars:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pvC-bl-lUP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV7-yx-MAl">
+                                <rect key="frame" x="168" y="432" width="39" height="30"/>
+                                <state key="normal" title="Menu"/>
+                                <connections>
+                                    <action selector="menu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aPO-xk-Ukw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="FUD-df-JTU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="FQN-Sy-caN"/>
-                            <constraint firstItem="Kim-4U-vwi" firstAttribute="top" secondItem="FUD-df-JTU" secondAttribute="bottom" constant="50" id="OXV-Dc-vHP"/>
-                            <constraint firstItem="FUD-df-JTU" firstAttribute="centerX" secondItem="Kim-4U-vwi" secondAttribute="centerX" id="Re2-YF-USJ"/>
-                            <constraint firstItem="FUD-df-JTU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ZDl-gX-7qF"/>
-                            <constraint firstItem="Kim-4U-vwi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eJT-Ps-UbR"/>
-                            <constraint firstItem="FUD-df-JTU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oEg-DG-8Ph"/>
+                            <constraint firstItem="FUD-df-JTU" firstAttribute="centerX" secondItem="Kim-4U-vwi" secondAttribute="centerX" id="MXx-SC-JPN"/>
+                            <constraint firstItem="FUD-df-JTU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="NE7-2S-2gz"/>
+                            <constraint firstItem="Kim-4U-vwi" firstAttribute="leading" secondItem="ogt-fB-aS7" secondAttribute="leading" id="PjS-rq-6m3"/>
+                            <constraint firstItem="ogt-fB-aS7" firstAttribute="top" secondItem="Kim-4U-vwi" secondAttribute="bottom" constant="8" symbolic="YES" id="RzC-17-Nu3"/>
+                            <constraint firstItem="kJi-2S-g1H" firstAttribute="top" secondItem="ogt-fB-aS7" secondAttribute="bottom" constant="8" symbolic="YES" id="She-jD-Rdw"/>
+                            <constraint firstItem="FUD-df-JTU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="ae0-WR-A5a"/>
+                            <constraint firstItem="kJi-2S-g1H" firstAttribute="centerX" secondItem="CV7-yx-MAl" secondAttribute="centerX" id="dtx-ih-nXv"/>
+                            <constraint firstItem="CV7-yx-MAl" firstAttribute="top" secondItem="kJi-2S-g1H" secondAttribute="bottom" constant="8" symbolic="YES" id="f7v-uo-Eqb"/>
+                            <constraint firstItem="ogt-fB-aS7" firstAttribute="centerX" secondItem="kJi-2S-g1H" secondAttribute="centerX" id="lBN-wQ-66u"/>
+                            <constraint firstItem="FUD-df-JTU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rEO-MI-RWl"/>
+                            <constraint firstItem="Kim-4U-vwi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tMR-2x-Ef1"/>
+                            <constraint firstItem="Kim-4U-vwi" firstAttribute="top" secondItem="FUD-df-JTU" secondAttribute="bottom" constant="50" id="v01-MJ-VvM"/>
                         </constraints>
                     </view>
                     <connections>
