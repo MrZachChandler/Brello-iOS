@@ -1,0 +1,6 @@
+framework module Pods_BrelloTests {
+  umbrella header "Pods-BrelloTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

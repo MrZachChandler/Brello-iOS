@@ -1,0 +1,33 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - CardIO (5.4.1)
+  - Hero (1.0.0-alpha.2)
+  - Parse (1.15.0):
+    - Bolts/Tasks (~> 1.8)
+  - PopupDialog (0.5.4)
+  - QRCode (2.0)
+  - QRCodeReader.swift (7.4.3)
+  - Stripe (11.1.0)
+
+DEPENDENCIES:
+  - CardIO
+  - Hero (= 1.0.0-alpha.2)
+  - Parse
+  - PopupDialog
+  - QRCode
+  - QRCodeReader.swift (~> 7.4.3)
+  - Stripe
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Hero: 3af2f56dd176708aad505e1ca5a6e0c0fb9d22ff
+  Parse: c0519f8fbf57bd0334f75cd22ac032d86ee55464
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  QRCodeReader.swift: 4a1d46f3057b1b6fc555578b2dc9f2dc99c7ccda
+  Stripe: 331994704823640a827b8da41255a439d60b61ce
+
+PODFILE CHECKSUM: 9fc01c0152c9e35c1531f3727e1072923bfb4cd8
+
+COCOAPODS: 1.2.0

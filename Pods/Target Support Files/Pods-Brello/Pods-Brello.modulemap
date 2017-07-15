@@ -1,0 +1,6 @@
+framework module Pods_Brello {
+  umbrella header "Pods-Brello-umbrella.h"
+
+  export *
+  module * { export * }
+}
