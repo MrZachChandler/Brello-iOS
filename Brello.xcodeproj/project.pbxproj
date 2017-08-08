@@ -33,6 +33,20 @@
 		CBA2C6AF1F1A7589002C2345 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C6A21F1A7589002C2345 /* VideoPlayerViewController.swift */; };
 		CBA2C7751F1AA3BE002C2345 /* uiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7741F1AA3BE002C2345 /* uiViewExtension.swift */; };
 		CBA2C7781F1AA9DA002C2345 /* QRDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */; };
+		CBA2C77B1F1AD710002C2345 /* landingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C77A1F1AD710002C2345 /* landingViewController.swift */; };
+		CBA2C77D1F1BD5E3002C2345 /* PassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C77C1F1BD5E3002C2345 /* PassesViewController.swift */; };
+		CBA2C7801F1BE2A3002C2345 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C77F1F1BE2A3002C2345 /* Colours.swift */; };
+		CBA2C7831F1BF760002C2345 /* PassInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7821F1BF760002C2345 /* PassInfoViewController.swift */; };
+		CBA2C7851F1BF927002C2345 /* PassInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA2C7841F1BF927002C2345 /* PassInfo.storyboard */; };
+		CBA2C7871F1C49F1002C2345 /* PopupAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7861F1C49F1002C2345 /* PopupAlert.swift */; };
+		CBA2C7891F1C83B9002C2345 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C7881F1C83B9002C2345 /* CombineViewController.swift */; };
+		CBA2C78B1F1CA0D2002C2345 /* NewComboViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C78A1F1CA0D2002C2345 /* NewComboViewController.swift */; };
+		CBA2C78D1F1CB125002C2345 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA2C78C1F1CB125002C2345 /* SplitViewController.swift */; };
+		CBEC429F1F2331F200A2259F /* ButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEC429E1F2331F200A2259F /* ButtonCollectionViewCell.swift */; };
+		CBFDFA501F26CF3300D0F9D5 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDFA4F1F26CF3300D0F9D5 /* BuyViewController.swift */; };
+		CBFDFA521F26CFBE00D0F9D5 /* BuyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBFDFA511F26CFBE00D0F9D5 /* BuyStoryboard.storyboard */; };
+		CBFDFA541F26D14100D0F9D5 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDFA531F26D14100D0F9D5 /* ConfirmViewController.swift */; };
+		CBFDFA561F26D57D00D0F9D5 /* SelectPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFDFA551F26D57D00D0F9D5 /* SelectPurchaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +104,20 @@
 		CBA2C6A21F1A7589002C2345 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		CBA2C7741F1AA3BE002C2345 /* uiViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiViewExtension.swift; sourceTree = "<group>"; };
 		CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRDetailViewController.swift; sourceTree = "<group>"; };
+		CBA2C77A1F1AD710002C2345 /* landingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = landingViewController.swift; sourceTree = "<group>"; };
+		CBA2C77C1F1BD5E3002C2345 /* PassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassesViewController.swift; sourceTree = "<group>"; };
+		CBA2C77F1F1BE2A3002C2345 /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
+		CBA2C7821F1BF760002C2345 /* PassInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassInfoViewController.swift; sourceTree = "<group>"; };
+		CBA2C7841F1BF927002C2345 /* PassInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PassInfo.storyboard; sourceTree = "<group>"; };
+		CBA2C7861F1C49F1002C2345 /* PopupAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupAlert.swift; sourceTree = "<group>"; };
+		CBA2C7881F1C83B9002C2345 /* CombineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
+		CBA2C78A1F1CA0D2002C2345 /* NewComboViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewComboViewController.swift; sourceTree = "<group>"; };
+		CBA2C78C1F1CB125002C2345 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		CBEC429E1F2331F200A2259F /* ButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		CBFDFA4F1F26CF3300D0F9D5 /* BuyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		CBFDFA511F26CFBE00D0F9D5 /* BuyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BuyStoryboard.storyboard; sourceTree = "<group>"; };
+		CBFDFA531F26D14100D0F9D5 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		CBFDFA551F26D57D00D0F9D5 /* SelectPurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPurchaseViewController.swift; sourceTree = "<group>"; };
 		D4C9367B25F5C398612A51DA /* Pods-BrelloTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrelloTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrelloTests/Pods-BrelloTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,10 +197,14 @@
 		CBA2C6601F19A2EE002C2345 /* Brello */ = {
 			isa = PBXGroup;
 			children = (
+				CBFDFA4E1F26CF1B00D0F9D5 /* Buy */,
+				CBA2C7811F1BF73E002C2345 /* PassInfo */,
+				CBA2C77E1F1BE28C002C2345 /* Colors */,
 				CBA2C7791F1AD439002C2345 /* Main */,
 				CBA2C7761F1AA9BA002C2345 /* QR */,
 				CBA2C6611F19A2EE002C2345 /* AppDelegate.swift */,
 				CBA2C6631F19A2EE002C2345 /* ViewController.swift */,
+				CBA2C77A1F1AD710002C2345 /* landingViewController.swift */,
 				CBA2C6921F1A7589002C2345 /* AppleHomePage */,
 				CBA2C6951F1A7589002C2345 /* Basic.storyboard */,
 				CBA2C6961F1A7589002C2345 /* CityGuide */,
@@ -250,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				CBA2C7771F1AA9DA002C2345 /* QRDetailViewController.swift */,
+				CBA2C77C1F1BD5E3002C2345 /* PassesViewController.swift */,
 			);
 			name = QR;
 			sourceTree = "<group>";
@@ -257,8 +290,49 @@
 		CBA2C7791F1AD439002C2345 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CBEC429D1F2331E000A2259F /* Button */,
+				CBA2C7861F1C49F1002C2345 /* PopupAlert.swift */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		CBA2C77E1F1BE28C002C2345 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C77F1F1BE2A3002C2345 /* Colours.swift */,
+			);
+			name = Colors;
+			sourceTree = "<group>";
+		};
+		CBA2C7811F1BF73E002C2345 /* PassInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2C7821F1BF760002C2345 /* PassInfoViewController.swift */,
+				CBA2C7841F1BF927002C2345 /* PassInfo.storyboard */,
+				CBA2C7881F1C83B9002C2345 /* CombineViewController.swift */,
+				CBA2C78A1F1CA0D2002C2345 /* NewComboViewController.swift */,
+				CBA2C78C1F1CB125002C2345 /* SplitViewController.swift */,
+			);
+			name = PassInfo;
+			sourceTree = "<group>";
+		};
+		CBEC429D1F2331E000A2259F /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				CBEC429E1F2331F200A2259F /* ButtonCollectionViewCell.swift */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		CBFDFA4E1F26CF1B00D0F9D5 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				CBFDFA4F1F26CF3300D0F9D5 /* BuyViewController.swift */,
+				CBFDFA511F26CFBE00D0F9D5 /* BuyStoryboard.storyboard */,
+				CBFDFA531F26D14100D0F9D5 /* ConfirmViewController.swift */,
+				CBFDFA551F26D57D00D0F9D5 /* SelectPurchaseViewController.swift */,
+			);
+			name = Buy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,7 +457,9 @@
 				CBA2C6AB1F1A7589002C2345 /* Menu.storyboard in Resources */,
 				CBA2C6AE1F1A7589002C2345 /* VideoPlayer.storyboard in Resources */,
 				CBA2C6A71F1A7589002C2345 /* CityGuide.storyboard in Resources */,
+				CBA2C7851F1BF927002C2345 /* PassInfo.storyboard in Resources */,
 				CBA2C66F1F19A2EE002C2345 /* LaunchScreen.storyboard in Resources */,
+				CBFDFA521F26CFBE00D0F9D5 /* BuyStoryboard.storyboard in Resources */,
 				CBA2C6AD1F1A7589002C2345 /* MusicPlayer.storyboard in Resources */,
 				CBA2C66C1F19A2EE002C2345 /* Assets.xcassets in Resources */,
 				CBA2C6671F19A2EE002C2345 /* Main.storyboard in Resources */,
@@ -552,17 +628,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBA2C7781F1AA9DA002C2345 /* QRDetailViewController.swift in Sources */,
+				CBA2C7801F1BE2A3002C2345 /* Colours.swift in Sources */,
+				CBA2C77B1F1AD710002C2345 /* landingViewController.swift in Sources */,
+				CBFDFA561F26D57D00D0F9D5 /* SelectPurchaseViewController.swift in Sources */,
 				CBA2C6641F19A2EE002C2345 /* ViewController.swift in Sources */,
 				CBA2C6A81F1A7589002C2345 /* CityGuideCell.swift in Sources */,
 				CBA2C6A61F1A7589002C2345 /* City.swift in Sources */,
 				CBA2C6AA1F1A7589002C2345 /* CityViewController.swift in Sources */,
+				CBFDFA541F26D14100D0F9D5 /* ConfirmViewController.swift in Sources */,
 				CBA2C6AC1F1A7589002C2345 /* MenuViewController.swift in Sources */,
 				CBA2C6A91F1A7589002C2345 /* CityGuideViewController.swift in Sources */,
+				CBA2C7831F1BF760002C2345 /* PassInfoViewController.swift in Sources */,
 				CBA2C6621F19A2EE002C2345 /* AppDelegate.swift in Sources */,
 				CBA2C6AF1F1A7589002C2345 /* VideoPlayerViewController.swift in Sources */,
 				CBA2C6A41F1A7589002C2345 /* AppleProductViewController.swift in Sources */,
+				CBFDFA501F26CF3300D0F9D5 /* BuyViewController.swift in Sources */,
 				CBA2C66A1F19A2EE002C2345 /* Brello.xcdatamodeld in Sources */,
 				CBA2C7751F1AA3BE002C2345 /* uiViewExtension.swift in Sources */,
+				CBA2C78D1F1CB125002C2345 /* SplitViewController.swift in Sources */,
+				CBA2C7871F1C49F1002C2345 /* PopupAlert.swift in Sources */,
+				CBA2C7891F1C83B9002C2345 /* CombineViewController.swift in Sources */,
+				CBA2C77D1F1BD5E3002C2345 /* PassesViewController.swift in Sources */,
+				CBEC429F1F2331F200A2259F /* ButtonCollectionViewCell.swift in Sources */,
+				CBA2C78B1F1CA0D2002C2345 /* NewComboViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

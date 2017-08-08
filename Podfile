@@ -12,6 +12,7 @@ target 'Brello' do
   pod 'PopupDialog’
   pod 'QRCodeReader.swift', '~> 7.4.3'
   pod 'Hero', '1.0.0-alpha.2'
+  pod 'WVCheckMark'
 
   target 'BrelloTests' do
     inherit! :search_paths

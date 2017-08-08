@@ -14,7 +14,11 @@ import Hero
 
 class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
 
+    @IBOutlet weak var closeButton: UIButton!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var brelloLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
+    var brelloTitle: String!
     lazy var reader: QRCodeReader = QRCodeReader()
     lazy var readerVC: QRCodeReaderViewController = {
         let builder = QRCodeReaderViewControllerBuilder {
@@ -118,7 +122,7 @@ class ViewController: UIViewController, QRCodeReaderViewControllerDelegate {
         dismiss(animated: true) { [weak self] in
             let alert = UIAlertController(
                 title: "QRCodeReader",
-                message: String (format:"%@ (of type %@)", result.value, result.metadataType),
+                message: String (format:"%@ (of type %@)", result.value),
                 preferredStyle: .alert
             )
             alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))

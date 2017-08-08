@@ -59,10 +59,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WVCheckMark.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>083FB9F3EB8FCA33346C4871DC6632C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>106A5E04C84223E704D3FFD80053F4D8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B4A530883B8FE26BDE85E9A38BE24B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,17 +92,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>980ABB80941AAE7021F8130BD0FD6CF9</key>
+		<key>9D146CAC5259D63FF6F0E34DC71117F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A179A888B43F0EDBF12CAE8B58C7D39F</key>
+		<key>B058B340B990C5C80E9ED48F1C0A8043</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B3C27142429EA3D6F6C1C67F2232795C</key>
+		<key>BED58540D9FDEB13035DDA7678CCB0B6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,22 +112,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E1F28D9E809868BF83F90E8EFAAC99A8</key>
+		<key>CFBEDBED93F86D7E77C44F87E0FB9318</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E6E73EF95BD83B32BDE765DE7D894EDE</key>
+		<key>F548A79579CCB3CD377F1B0DCDFA265C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>F957EABCA56BD8F5B626798CC7B344D3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F98ACF3817CD837A0B7CB0AF87D2EABF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

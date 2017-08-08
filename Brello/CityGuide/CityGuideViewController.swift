@@ -25,6 +25,7 @@ import UIKit
 class CityGuideViewController: UIViewController {
   @IBOutlet weak var collectionView: UICollectionView!
   var cities = City.cities
+    
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if let currentCell = sender as? CityCell,
        let vc = segue.destination as? CityViewController,
@@ -32,7 +33,16 @@ class CityGuideViewController: UIViewController {
       vc.selectedIndex = currentCellIndex
     }
   }
+
+    @IBAction func viewPages(_ sender: Any) {
+        let vc = viewController(forStoryboardName: "Menu")
+        
+        DispatchQueue.main.async {
+            self.present(vc, animated: true, completion: nil)
+        }
+    }
 }
+
 
 extension CityGuideViewController:UICollectionViewDataSource, UICollectionViewDelegate {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

@@ -49,6 +49,7 @@
                                                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                             <real key="value" value="4"/>
                                                         </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="playbutton"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBl-3a-4YU">
@@ -123,8 +124,8 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="fade translate(0, -150)"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BRELLO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSV-gT-qDG">
-                                <rect key="frame" x="70" y="132" width="134" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Brello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSV-gT-qDG">
+                                <rect key="frame" x="70" y="132" width="97" height="50"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -140,7 +141,7 @@
                                     <constraint firstAttribute="width" constant="48" id="qzi-YT-XHw"/>
                                 </constraints>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" image="ic_keyboard_arrow_down"/>
+                                <state key="normal" image="ic_menu_36pt"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="24"/>
@@ -149,7 +150,7 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="back"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="hero_dismissViewController" destination="RHl-8a-4vU" eventType="touchUpInside" id="JpC-2M-tbD"/>
+                                    <action selector="viewPages:" destination="Tnf-dk-9EF" eventType="touchUpInside" id="OBp-BM-dIL"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULAR DESTINATIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OK-2F-Vl7">
@@ -236,6 +237,20 @@
                                                     <color key="textColor" red="0.97638529539999996" green="0.97652524709999999" blue="0.97635465860000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yhw-Fs-JM4">
+                                                    <rect key="frame" x="273" y="40" width="63" height="63"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="63" id="Ykv-Ka-ipw"/>
+                                                        <constraint firstAttribute="width" constant="63" id="gmS-SV-Hu4"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="scale(0.5) translate(200, 0) fade useGlobalCoordinateSpace"/>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="24"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="playButton"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsu-p5-jev">
                                                     <rect key="frame" x="24" y="246" width="144" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="31"/>
@@ -245,19 +260,21 @@
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstItem="rsu-p5-jev" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leadingMargin" constant="16" id="1CW-wY-4WO"/>
-                                            <constraint firstItem="oOO-ar-dfh" firstAttribute="top" secondItem="UsK-II-tbB" secondAttribute="top" id="GNJ-3L-mwm"/>
-                                            <constraint firstAttribute="trailing" secondItem="RIc-t0-T4M" secondAttribute="trailing" id="LYz-8t-OmL"/>
-                                            <constraint firstItem="Q8c-oW-Hod" firstAttribute="top" secondItem="rsu-p5-jev" secondAttribute="bottom" constant="9" id="MQ9-Ig-gXU"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="Q8c-oW-Hod" secondAttribute="trailing" constant="16" id="SXR-51-Bo3"/>
-                                            <constraint firstAttribute="trailing" secondItem="oOO-ar-dfh" secondAttribute="trailing" id="V0W-tI-5qz"/>
-                                            <constraint firstItem="rsu-p5-jev" firstAttribute="centerY" secondItem="UsK-II-tbB" secondAttribute="centerY" constant="-70" id="aS0-JE-rHo"/>
-                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="top" secondItem="UsK-II-tbB" secondAttribute="top" id="b5q-6h-6zx"/>
-                                            <constraint firstAttribute="bottom" secondItem="oOO-ar-dfh" secondAttribute="bottom" id="gen-dL-Spm"/>
-                                            <constraint firstItem="oOO-ar-dfh" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leading" id="iUQ-rB-UAe"/>
-                                            <constraint firstAttribute="bottom" secondItem="RIc-t0-T4M" secondAttribute="bottom" id="luy-Ht-3hd"/>
-                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leading" id="oib-O5-A2L"/>
-                                            <constraint firstItem="Q8c-oW-Hod" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leadingMargin" constant="16" id="wgZ-Kl-P41"/>
+                                            <constraint firstItem="oOO-ar-dfh" firstAttribute="top" secondItem="UsK-II-tbB" secondAttribute="top" id="1HT-gU-4Gx"/>
+                                            <constraint firstItem="rsu-p5-jev" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leadingMargin" constant="16" id="Cjy-jz-H7I"/>
+                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="leading" secondItem="oOO-ar-dfh" secondAttribute="leading" id="Gub-Pt-h9r"/>
+                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="centerX" secondItem="Q8c-oW-Hod" secondAttribute="centerX" id="Pn9-kM-nLd"/>
+                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="top" secondItem="oOO-ar-dfh" secondAttribute="top" id="QP7-K6-HBl"/>
+                                            <constraint firstAttribute="bottom" secondItem="oOO-ar-dfh" secondAttribute="bottom" id="U09-b6-xkX"/>
+                                            <constraint firstItem="rsu-p5-jev" firstAttribute="top" secondItem="UsK-II-tbB" secondAttribute="top" constant="246" id="aFX-8E-mBT"/>
+                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="bottom" secondItem="oOO-ar-dfh" secondAttribute="bottom" id="baF-M9-lzG"/>
+                                            <constraint firstAttribute="trailing" secondItem="RIc-t0-T4M" secondAttribute="trailing" id="coa-XD-uhj"/>
+                                            <constraint firstItem="yhw-Fs-JM4" firstAttribute="top" secondItem="UsK-II-tbB" secondAttribute="topMargin" constant="32" id="ioa-Ij-52x"/>
+                                            <constraint firstItem="oOO-ar-dfh" firstAttribute="leading" secondItem="UsK-II-tbB" secondAttribute="leading" id="pbE-qV-bfG"/>
+                                            <constraint firstItem="RIc-t0-T4M" firstAttribute="trailing" secondItem="oOO-ar-dfh" secondAttribute="trailing" id="qQg-AM-I6v"/>
+                                            <constraint firstItem="Q8c-oW-Hod" firstAttribute="top" secondItem="rsu-p5-jev" secondAttribute="bottom" constant="9" id="t8j-K9-uOx"/>
+                                            <constraint firstItem="rsu-p5-jev" firstAttribute="leading" secondItem="Q8c-oW-Hod" secondAttribute="leading" id="tNz-Zm-FgW"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="yhw-Fs-JM4" secondAttribute="trailing" constant="31" id="zek-dk-1BH"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="useShortDescription" value="NO"/>
@@ -265,6 +282,7 @@
                                         <connections>
                                             <outlet property="descriptionLabel" destination="Q8c-oW-Hod" id="Pj3-Sb-HGF"/>
                                             <outlet property="imageView" destination="oOO-ar-dfh" id="o11-32-AYz"/>
+                                            <outlet property="logo" destination="yhw-Fs-JM4" id="lHN-Jw-Sl3"/>
                                             <outlet property="nameLabel" destination="rsu-p5-jev" id="NoP-ci-iGH"/>
                                         </connections>
                                     </collectionViewCell>
@@ -313,13 +331,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q5l-99-eDb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800" y="0.0"/>
+            <point key="canvasLocation" x="799.20000000000005" y="-0.44977511244377816"/>
         </scene>
     </scenes>
     <resources>
         <image name="ic_keyboard_arrow_down" width="24" height="24"/>
+        <image name="ic_menu_36pt" width="36" height="36"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gQ9-ti-tgW"/>
+        <segue reference="S1k-xy-pA0"/>
     </inferredMetricsTieBreakers>
 </document>

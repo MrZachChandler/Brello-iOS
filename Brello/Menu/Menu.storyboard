@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hDE-vd-kLY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hDE-vd-kLY">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Menu View Controller-->
         <scene sceneID="FLe-99-9Fd">
             <objects>
-                <viewController modalPresentationStyle="overFullScreen" id="hDE-vd-kLY" customClass="MenuViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="hDE-vd-kLY" customClass="MenuViewController" customModule="Brello" customModuleProvider="target" sceneMemberID="viewController">
                     <visualEffectView key="view" opaque="NO" contentMode="scaleToFill" id="T6f-AM-L85">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -39,7 +39,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="source(menu)"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="1JW-M4-2PL" kind="show" id="i17-Fc-O3R"/>
+                                                <action selector="viewStore:" destination="hDE-vd-kLY" eventType="touchUpInside" id="vSp-4o-ycb"/>
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dC5-La-4Q6">
@@ -58,7 +58,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="source(menu)"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="1JW-M4-2PL" kind="show" id="Rsn-IC-JQr"/>
+                                                <action selector="hero_unwindToRootViewController" destination="hDE-vd-kLY" eventType="touchUpInside" id="aQI-mj-muo"/>
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2mS-M0-ozC">
@@ -77,7 +77,8 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="source(menu)"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="1JW-M4-2PL" kind="show" id="E78-QT-i86"/>
+                                                <action selector="viewBars:" destination="hDE-vd-kLY" eventType="touchUpInside" id="iPZ-Pb-hlB"/>
+                                                <action selector="viewPages:" destination="hDE-vd-kLY" eventType="touchUpInside" id="4Rz-S9-PxB"/>
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SLa-DC-TkS">
@@ -96,7 +97,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="heroModifierString" value="source(menu)"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="1JW-M4-2PL" kind="show" id="toM-0A-mTp"/>
+                                                <action selector="scanCode:" destination="hDE-vd-kLY" eventType="touchUpInside" id="Xf8-J0-R7h"/>
                                             </connections>
                                         </button>
                                         <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXz-0P-hCB">
@@ -192,7 +193,7 @@
                                                 <userDefinedRuntimeAttribute type="string" keyPath="heroID" value="back"/>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <action selector="hero_unwindToRootViewController" destination="n6n-Yr-iiD" eventType="touchUpInside" id="r0s-95-mIt"/>
+                                                <action selector="ht_dismiss:" destination="hDE-vd-kLY" eventType="touchUpInside" id="qWR-5p-Erm"/>
                                             </connections>
                                         </button>
                                     </subviews>
@@ -239,7 +240,7 @@
         <!--Menu Page View Controller-->
         <scene sceneID="7u7-EV-Uun">
             <objects>
-                <viewController id="1JW-M4-2PL" customClass="MenuPageViewController" customModule="HeroExamples" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1JW-M4-2PL" customClass="MenuPageViewController" customModule="Brello" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aZj-SX-gLY"/>
                         <viewControllerLayoutGuide type="bottom" id="IBJ-NT-I3k"/>
@@ -307,16 +308,16 @@
     </scenes>
     <resources>
         <image name="ic_audiotrack_48pt" width="48" height="48"/>
-        <image name="ic_chat_48pt" width="48" height="48"/>
-        <image name="ic_format_quote_48pt" width="48" height="48"/>
-        <image name="ic_gif_48pt" width="48" height="48"/>
-        <image name="ic_insert_photo_48pt" width="48" height="48"/>
+        <image name="ic_chat_48pt" width="39" height="27"/>
+        <image name="ic_format_quote_48pt" width="48" height="43"/>
+        <image name="ic_gif_48pt" width="33" height="42"/>
+        <image name="ic_insert_photo_48pt" width="44" height="35"/>
         <image name="ic_keyboard_arrow_down" width="24" height="24"/>
-        <image name="ic_link_48pt" width="48" height="48"/>
-        <image name="ic_text_fields_48pt" width="48" height="48"/>
-        <image name="ic_videocam_48pt" width="48" height="48"/>
+        <image name="ic_link_48pt" width="34" height="33"/>
+        <image name="ic_text_fields_48pt" width="30" height="28"/>
+        <image name="ic_videocam_48pt" width="39" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="toM-0A-mTp"/>
+        <segue reference="qwa-EV-Iet"/>
     </inferredMetricsTieBreakers>
 </document>

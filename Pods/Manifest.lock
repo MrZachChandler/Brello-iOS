@@ -8,6 +8,7 @@ PODS:
   - QRCode (2.0)
   - QRCodeReader.swift (7.4.3)
   - Stripe (11.1.0)
+  - WVCheckMark (1.0.6)
 
 DEPENDENCIES:
   - CardIO
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - QRCode
   - QRCodeReader.swift (~> 7.4.3)
   - Stripe
+  - WVCheckMark
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
   QRCodeReader.swift: 4a1d46f3057b1b6fc555578b2dc9f2dc99c7ccda
   Stripe: 331994704823640a827b8da41255a439d60b61ce
+  WVCheckMark: ffe5f73addfee85712c1383642eb970353bc68db
 
-PODFILE CHECKSUM: 9fc01c0152c9e35c1531f3727e1072923bfb4cd8
+PODFILE CHECKSUM: 09e13e30ae3468510975ce0a1a934b0dfd24dcb6
 
 COCOAPODS: 1.2.0

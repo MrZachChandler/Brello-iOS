@@ -24,6 +24,7 @@ import UIKit
 
 class CityCell: UICollectionViewCell {
   @IBOutlet weak var imageView: UIImageView!
+  @IBOutlet weak var logo: UIImageView!
 
   @IBOutlet weak var nameLabel: UILabel!
   @IBOutlet weak var descriptionLabel: UILabel!
@@ -38,7 +39,17 @@ class CityCell: UICollectionViewCell {
       heroID = "\(name)"
 
       nameLabel.text = name
-      imageView.image = city.image
+        if imageView != nil {
+            imageView.image = city.image
+
+        }
+        if logo != nil {
+            logo.image = city.icon
+        }
+        if logo != nil && imageView != nil{
+            logo.layer.cornerRadius = logo.frame.size.height/2
+            logo.layer.masksToBounds = true
+        }
       descriptionLabel.text = useShortDescription ? city.shortDescription : city.description
     }
   }
